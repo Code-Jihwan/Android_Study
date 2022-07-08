@@ -10,9 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CardView" />
+            <option value="$PROJECT_DIR$/RecyclerView" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/myapplication" />
-            <option value="$PROJECT_DIR$/myapplication2" />
           </set>
         </option>
       </GradleProjectSettings>
