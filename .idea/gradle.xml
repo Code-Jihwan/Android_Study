@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/RecyclerView" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/spinner" />
+            <option value="$PROJECT_DIR$/textinputlayout" />
           </set>
         </option>
       </GradleProjectSettings>
