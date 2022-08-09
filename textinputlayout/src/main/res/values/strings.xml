@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TextInputLayout</string>
+    <string name="txt1">이메일</string>
+    <string name="txt2">비밀번호</string>
+    <string name="txt3">닉네임</string>
+    <string name="txt4">버튼</string>
 </resources>
