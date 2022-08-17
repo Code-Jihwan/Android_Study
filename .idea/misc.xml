@@ -19,7 +19,9 @@
         <entry key="viewpager2/src/main/res/drawable/circleindicator.xml" value="0.202" />
         <entry key="viewpager2/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
         <entry key="viewpager2/src/main/res/layout/pagerview_item1.xml" value="0.24947916666666667" />
+        <entry key="viewpager2/src/main/res/layout/pagerview_item1_layout.xml" value="0.2677083333333333" />
         <entry key="viewpager2/src/main/res/layout/pagerview_item2.xml" value="0.25052083333333336" />
+        <entry key="viewpager2/src/main/res/layout/pagerview_item2_layout.xml" value="0.2677083333333333" />
         <entry key="viewpager2/src/main/res/layout/pagerview_item3.xml" value="0.25052083333333336" />
         <entry key="viewpager2/src/main/res/layout/pagerview_item3_layout.xml" value="0.2677083333333333" />
       </map>
