@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/spinner" />
             <option value="$PROJECT_DIR$/textinputlayout" />
+            <option value="$PROJECT_DIR$/viewpager2" />
           </set>
         </option>
       </GradleProjectSettings>

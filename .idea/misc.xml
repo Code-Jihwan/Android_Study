@@ -5,7 +5,13 @@
       <map>
         <entry key="spinner/src/main/res/drawable/asdf0.xml" value="0.202" />
         <entry key="spinner/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
-        <entry key="textinputlayout/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="textinputlayout/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="viewpager2/src/main/res/drawable-v24/asdf0.xml" value="0.202" />
+        <entry key="viewpager2/src/main/res/drawable/circleindicator.xml" value="0.202" />
+        <entry key="viewpager2/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="viewpager2/src/main/res/layout/pagerview_item1.xml" value="0.24947916666666667" />
+        <entry key="viewpager2/src/main/res/layout/pagerview_item2.xml" value="0.25052083333333336" />
+        <entry key="viewpager2/src/main/res/layout/pagerview_item3.xml" value="0.25052083333333336" />
       </map>
     </option>
   </component>

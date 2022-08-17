@@ -1,7 +1,6 @@
 package com.example.spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     Spinner spinner;
-    String[] items = {"AAAA", "BBBB", "CCCC", "DDDD", "EEEE"};
+    String[] items = {"AAAA", "SSSS", "DDDD", "QQQQ", "PPPP"};
 
 
     @Override
