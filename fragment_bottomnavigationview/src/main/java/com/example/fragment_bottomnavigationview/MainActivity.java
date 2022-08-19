@@ -35,12 +35,16 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.menu1:
                         transaction.replace(R.id.layout00, fragment1).commitAllowingStateLoss();
+                        transaction.addToBackStack(null);   //.addToBackStack(null) 추가 시 -> 스택에 쌓이므로 뒤로가기 시 스택에 있는 프래그먼트들이 순서대로 onDestory 된다.
                         break;
                     case R.id.menu2:
                         transaction.replace(R.id.layout00, fragment2).commitAllowingStateLoss();
+                        transaction.addToBackStack(null);
                         break;
                     case R.id.menu3:
                         transaction.replace(R.id.layout00, fragment3).commitAllowingStateLoss();
+                        transaction.addToBackStack(null);
+                        break;
                 }
             }
         });

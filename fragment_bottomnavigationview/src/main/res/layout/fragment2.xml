@@ -13,7 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:id="@+id/txt2"
-        android:text="fragment2"
+        android:text="Fragment2"
         android:textColor="@color/black"
         />
 
