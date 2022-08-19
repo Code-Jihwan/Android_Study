@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Intent 실행"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="data 전달"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="web"
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="spinner"
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="call"
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="email"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
