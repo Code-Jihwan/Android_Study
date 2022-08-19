@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);     //(현재화면, 이동 후 화면)
                 //MainActivity -> MainActivity2     데이터 전달
-                intent.putExtra("ID", "데이터 전달 완료1111");             //문자열 넣기 : putExtra()   //문자열 빼기 : getStringExtra()
+                intent.putExtra("ID", "데이터 전달 완료!!");             //문자열 넣기 : putExtra()   //문자열 빼기 : getStringExtra()
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.android.com/guide/components/intents-filters?hl=ko"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.co.kr/"));
                 startActivity(intent);
             }
         });
@@ -76,10 +76,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");   //텍스트 파일 기본값
-                intent.putExtra(Intent.EXTRA_EMAIL, "asdf@asdf.com");   //EXTRA_EMAIL , 이메일 주소
+                intent.putExtra(Intent.EXTRA_EMAIL, "aaaa11@naver.com");   //EXTRA_EMAIL , 이메일 주소
                 intent.putExtra(Intent.EXTRA_SUBJECT, "email 제목");  //EXTRA_SUBJECT, 이메일 제목
                 intent.putExtra(Intent.EXTRA_TEXT, "email 내용"); //EXTRA_TEXT, 이메일 내용
-                startActivity(Intent.createChooser(intent, "aaaa"));
+                startActivity(Intent.createChooser(intent, "AAAA"));
             }
         });
     }

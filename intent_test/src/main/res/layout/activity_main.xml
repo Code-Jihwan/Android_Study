@@ -10,51 +10,48 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@color/yellow2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        >
 
         <Button
             android:id="@+id/btn1"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Intent 실행"
-            />
+            android:text="Intent 실행" />
 
         <Button
             android:id="@+id/btn2"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="data 전달"
-            />
+            android:text="data 전달" />
 
         <Button
             android:id="@+id/btn3"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="web"
-            />
+            android:text="web" />
 
         <Button
             android:id="@+id/btn4"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="spinner"
-            />
+            android:text="spinner" />
 
         <Button
             android:id="@+id/btn5"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="call"
-            />
+            android:text="call" />
 
         <Button
             android:id="@+id/btn6"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="email"
             />
