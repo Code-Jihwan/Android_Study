@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         circleIndicator.createIndicators(num_page, 0);
 
         viewPager2.setCurrentItem(1000);    //이미지 시작 지점
-        viewPager2.setOffscreenPageLimit(2);    //최대 이미지 수,  현재 페이지를 기준으로 좌, 우의 프래그먼트 생명주기 관리
+        viewPager2.setOffscreenPageLimit(2);    //최대 이미지 수  //현재 페이지를 기준으로 좌, 우의 프래그먼트 생명주기 관리
+                                                //현재 페이지 기준으로 좌로 2개, 우로 2개 씩 생성되어있다.
 
         viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
