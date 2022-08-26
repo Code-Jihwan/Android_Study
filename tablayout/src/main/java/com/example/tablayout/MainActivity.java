@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Fragment2 fragment2 = new Fragment2();
     private Fragment3 fragment3 = new Fragment3();
     private Fragment4 fragment4 = new Fragment4();
+    private Fragment5 fragment5 = new Fragment5();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +37,11 @@ public class MainActivity extends AppCompatActivity {
                 else if (position == 2) {
                     selected = fragment3;
                 }
-                else {
+                else if (position == 3){
                     selected = fragment4;
+                }
+                else {
+                    selected = fragment5;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.frame, selected).commit();
             }
